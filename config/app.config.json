@@ -1,0 +1,9 @@
+{
+  "appName": "devops-demo",
+  "environment": "dev",
+  "logLevel": "info",
+  "featureFlags": {
+    "newLogin": false,
+    "betaFeatureX": true
+  }
+}

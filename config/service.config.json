@@ -1,0 +1,11 @@
+{
+  "service": {
+    "name": "example-backend",
+    "timeoutMs": 5000,
+    "endpoint": "https://api.example.com"
+  },
+  "auth": {
+    "type": "token",
+    "token": "__REPLACE_WITH_SECRET__"
+  }
+}
