@@ -1,0 +1,13 @@
+version: 2
+updates:
+  # 1) Application dependencies (npm)
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+
+  # 2) GitHub Actions dependencies (keeps workflow actions up to date)
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
