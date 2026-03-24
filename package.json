@@ -6,6 +6,6 @@
     "test": "node test/index.test.js"
   },
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "4.17.11"
   }
 }
